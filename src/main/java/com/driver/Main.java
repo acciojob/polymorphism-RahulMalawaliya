@@ -7,10 +7,10 @@ public static void main(String[] args) {
         int ans=p.product(10,20);
         double ans1=p.product( 2.3,8.9);
         int ans2=p.product(1,2,3);
-        System.out.println(ans+" "+ans1+" "+ans2);
+        System.out.println(ans+" "+ans2+" "+ans1);
     }
 
-    static class  product
+    public static class  product
     {
 
         public int product(int x, int y) {
